@@ -1,0 +1,169 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+font-family: Montserrat;
+}
+
+
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+                                  /* headings */
+.big-heading{
+
+font-size: 3.5rem;
+line-height: 1.5;
+
+}
+
+.section-heading{
+font-size: 3.5rem;
+line-height: 1.5;
+
+}
+
+                               /*Navigation Bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+                                    /*Download Button*/
+.Download-button{
+margin: 5% 3% 5% 0;
+}
+
+                                      /* title section */
+#title{
+text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+
+}
+                                               /*Title Image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+position: absolute;
+right: 30%;
+
+}
+
+                              /*Features section*/
+
+#features{
+position: relative;
+z-index: 1;
+
+    }
+.feature-box{
+padding: 4%;
+
+    }
+
+.icon{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+                            /*Testimmonial section*/
+#testimonials{
+background-color: #ef8172;
+    }
+.testimonial-image{
+border-radius: 100%;
+width: 10%;
+margin: 10px;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+line-height: 1.5;
+
+}
+                                   /* Press Section */
+#press{
+background-color: #ef8172;
+padding-bottom: 5%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+                                  /* pricing section */
+
+#pricing{
+padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+line-height: 1.5;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+  position: static;
+  transform: rotate(0);
+  }
+
+}
+                                            /* CTA headings */
+
+
+.cta-heading{
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+
+.font{
+margin: 20px 10px;}
+
+
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+
+}
